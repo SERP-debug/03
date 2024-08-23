@@ -1,0 +1,39 @@
+div{
+    border:solid;
+    display: flex;}
+
+.text-white{color: white;} 
+
+.bg-red{background-color: red;}
+
+.spacer{
+    height: 30vh;
+}
+
+.search{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    jflex-direction: row;
+    justify-content:space-between ;
+}
+
+
+.wrapper{
+    flex-direction: column;
+}
+
+.shop{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.shop-item{
+    flex-direction: column;
+    padding: 10px;    
+}
