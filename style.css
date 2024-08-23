@@ -17,7 +17,7 @@ div{
 
 .header{
     display: flex;
-    jflex-direction: row;
+    flex-direction: row;
     justify-content:space-between ;
 }
 
