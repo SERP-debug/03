@@ -1,5 +1,5 @@
 div{
-    border:solid;
+    /*border:solid;*/
     display: flex;}
 
 .text-white{color: white;} 
@@ -35,5 +35,19 @@ div{
 
 .shop-item{
     flex-direction: column;
+
+      /* @media (min-width: 400px)
+      {width: 30%;}
+
+      @media (min-width: 400px) and (max-width: 1600px) 
+      {width: 20%;}
+
+      @media (min-width: 600px) 
+      {width: 10%;}*/
+
+      width: 250px;
+
+      
+      
     padding: 10px;    
 }
